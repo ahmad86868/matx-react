@@ -12,8 +12,7 @@ const JwtLogin = Loadable(lazy(() => import('app/views/sessions/JwtLogin')));
 const JwtRegister = Loadable(lazy(() => import('app/views/sessions/JwtRegister')));
 const ForgotPassword = Loadable(lazy(() => import('app/views/sessions/ForgotPassword')));
 
-// echart page
-const AppEchart = Loadable(lazy(() => import('app/views/charts/echarts/AppEchart')));
+
 
 // dashboard page
 const Analytics = Loadable(lazy(() => import('app/views/dashboard/Analytics')));
@@ -34,12 +33,7 @@ const routes = [
         auth: authRoles.admin
       },
 
-      // e-chart rooute
-      {
-        path: '/charts/echarts',
-        element: <AppEchart />,
-        auth: authRoles.editor
-      }
+ 
     ]
   },
 

@@ -136,7 +136,7 @@ const MatxCustomizer = () => {
                 color={tabIndex === 0 ? 'secondary' : 'primary'}
                 sx={{ mr: 2 }}
               >
-                Demos
+                Demoskkk
               </Button>
               <Button
                 variant="outlined"
