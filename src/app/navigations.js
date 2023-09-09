@@ -7,6 +7,8 @@ export const navigations = [
     icon: 'favorite',
     badge: { value: '', color: 'secondary' },
     children: [
+
+      { name: 'Configuration', path: '/material/Module', iconText: 'i' },
       { name: 'Auto Complete', path: '/material/autocomplete', iconText: 'A' },
       { name: 'Buttons', path: '/material/buttons', iconText: 'B' },
       { name: 'Form', path: '/material/form', iconText: 'F' },
